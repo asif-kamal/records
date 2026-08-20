@@ -12,7 +12,7 @@ public class RegularExpressions {
     private static String format(String regexp, String... args) {
 
         int index = 0;
-        while (regexp.contains("%s")) {
+        while (regexp.matches(".*%s.*")) {
             regexp = regexp.replaceFirst("%s", args[index++]);
         }
         return regexp;
