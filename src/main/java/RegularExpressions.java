@@ -11,7 +11,7 @@ public class RegularExpressions {
         String testString = "Anyone can Learn abc's, 123's, and any regular expression";
         String replacement = "(-)";
         String[] patterns = {
-                "a|b|c",
+                "ab|bc",
                 "[123]",
                 "[A]"
         };
