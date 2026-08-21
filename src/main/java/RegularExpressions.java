@@ -12,8 +12,8 @@ public class RegularExpressions {
         String replacement = "(-)";
         String[] patterns = {
                 "[a-z]",
-                "[123]",
-                "[A]"
+                "[0-9]",
+                "[A-Z]"
         };
 
         for (String pattern : patterns) {
