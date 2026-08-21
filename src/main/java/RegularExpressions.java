@@ -12,7 +12,7 @@ public class RegularExpressions {
         String replacement = "(-)";
         String[] patterns = {
                 "[a-zA-Z]*",
-                "[0-9]+",
+                "[0-9]{2}",
                 "[A-Z]*"
         };
 
